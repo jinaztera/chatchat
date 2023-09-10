@@ -1,14 +1,10 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import time
-import streamlit as st
+import streamlit as stpip
 import numpy as np
 from PIL import Image
 import openai
 
-openai.api_key = "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"
-# st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # from langchain.chat_models import ChatOpenAI
 # chat_model - ChatOpenAI()
