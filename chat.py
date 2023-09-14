@@ -1,5 +1,5 @@
 import time
-import streamlit as stpip
+import streamlit as st
 import numpy as np
 from PIL import Image
 import openai
